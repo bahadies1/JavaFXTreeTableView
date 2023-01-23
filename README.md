@@ -3,7 +3,7 @@
 !!!debug java
 
 private TableView<Person> table = new TableView<Person>();
-    private final ObservableList<Person> data = FXCollections.observableArrayList (
+private final ObservableList<Person> data = FXCollections.observableArrayList (
 
         new Person("Jacob", "Smith", "jacob.smith@example.com"),
         new Person("Isabella", "Johnson", "isabella.johnson@example.com"),
