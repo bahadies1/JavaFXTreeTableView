@@ -1,5 +1,7 @@
 # JavaFXTreeTableView
 
+!!!debug java
+
 private TableView<Person> table = new TableView<Person>();
     private final ObservableList<Person> data =
             FXCollections.observableArrayList(
